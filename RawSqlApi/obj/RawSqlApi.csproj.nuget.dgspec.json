@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\RawSqlApi\\RawSqlApi.csproj": {}
+    "C:\\Users\\User\\Desktop\\Q2_E3_Saguban_Bianca\\RawSqlApi\\RawSqlApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\RawSqlApi\\RawSqlApi.csproj": {
+    "C:\\Users\\User\\Desktop\\Q2_E3_Saguban_Bianca\\RawSqlApi\\RawSqlApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\RawSqlApi\\RawSqlApi.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Q2_E3_Saguban_Bianca\\RawSqlApi\\RawSqlApi.csproj",
         "projectName": "RawSqlApi",
-        "projectPath": "C:\\Users\\User\\Desktop\\RawSqlApi\\RawSqlApi.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Q2_E3_Saguban_Bianca\\RawSqlApi\\RawSqlApi.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\RawSqlApi\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Q2_E3_Saguban_Bianca\\RawSqlApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,24 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.0, )"
             }
           },
           "imports": [
