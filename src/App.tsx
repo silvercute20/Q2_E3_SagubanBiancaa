@@ -7,17 +7,10 @@ export default function App() {
   const [pokemon, setPokemon] = useState<Pokemon | null>(null)
 
   function handleSelect(name: string) {
-    fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
+    fetch(`http://localhost:5204/api/orders`)
       .then(res => res.json())
       .then(data => {
-        const clean: Pokemon = {
-          id: data.id,
-          name: data.name,
-          height: data.height,
-          weight: data.weight,
-          imageUrl: data.sprites.front_default
-        }
-        setPokemon(clean)
+        console.log("Data from .NET API:", data)
       })
   }
 
